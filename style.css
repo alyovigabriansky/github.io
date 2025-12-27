@@ -94,10 +94,10 @@
     padding: 50px 50px;
 }
 
-.sambutan-left img {
-    width: 160px;
+img[src="ketua.png"] {
+    width: 240px;      /* UBAH ANGKA INI JIKA MAU LEBIH BESAR */
     height: auto;
-    border-radius: 14px;
+    border-radius: 16px;
     margin-bottom: 20px;
 }
 
