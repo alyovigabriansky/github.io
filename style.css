@@ -20,7 +20,7 @@
 }
 
 .logo {
-    height: 40px;
+    height: 50px;
 }
 
 .org-name {
@@ -51,11 +51,12 @@
 /* HERO */
 .hero {
     height: 420px;
-    background: url('hero.jpg') center/cover no-repeat;
+    background: url('hero.png') center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .hero h1 {
     font-size: 48px;
