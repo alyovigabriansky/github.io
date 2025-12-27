@@ -1,4 +1,4 @@
-/* RESET DASAR */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +12,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 14px 32px;
-    background: #ffffff;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    background: #fff;
     border-bottom: 1px solid #eee;
 }
 
@@ -26,7 +23,7 @@
 }
 
 .logo {
-    height: 45px;
+    height: 42px;
 }
 
 .org-name {
@@ -37,59 +34,93 @@
 .menu {
     list-style: none;
     display: flex;
-    gap: 28px;
+    gap: 30px;
 }
 
 .menu a {
     text-decoration: none;
     color: #000;
-    font-weight: 500;
 }
 
 .btn-simk {
     background: #7bb6ff;
-    color: #fff;
+    color: white;
     padding: 10px 18px;
-    border-radius: 10px;
+    border-radius: 12px;
     text-decoration: none;
     font-weight: bold;
 }
 
 /* HERO */
 .hero {
-    width: 100%;
     height: 420px;
-    background-image: url("hero.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background: url("hero.png") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.hero h1 {
-    background: rgba(255,255,255,0.65);
-    padding: 14px 30px;
-    font-size: 40px;
+.hero-text {
+    font-size: 44px;
     font-weight: bold;
-    color: #000;
-    text-align: center;
+    background: rgba(255,255,255,0.7);
+    padding: 14px 30px;
 }
 
 /* SAMBUTAN */
-.sambutan {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 40px;
-    border-radius: 18px;
-    background: linear-gradient(135deg, #9fd3ff, #c6c7ea);
+.sambutan-wrapper {
+    padding: 60px 20px;
+    background: #f5f5f5;
 }
 
-.sambutan h2 {
+.sambutan-card {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    border-radius: 24px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.sambutan-left {
+    width: 35%;
+    background: #c9ffe0;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.sambutan-left img {
+    width: 160px;
+    border-radius: 12px;
     margin-bottom: 20px;
-    line-height: 1.4;
+}
+
+.sambutan-left h3 {
+    margin-bottom: 5px;
+}
+
+.jabatan {
+    font-weight: bold;
+    color: #007b55;
+}
+
+.periode {
+    font-size: 14px;
+}
+
+.sambutan-right {
+    width: 65%;
+    padding: 40px;
+}
+
+.logo-kecil {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.sambutan-right h2 {
+    margin-bottom: 20px;
 }
 
 .quote {
@@ -97,7 +128,42 @@
     line-height: 1.6;
 }
 
-.nama {
+.nama-ttd {
     margin-top: 30px;
     font-weight: bold;
 }
+
+.nama-ttd span {
+    font-size: 14px;
+    color: #007b55;
+}
+
+/* VISI */
+.visi {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    background: #2f74a8;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-col {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
